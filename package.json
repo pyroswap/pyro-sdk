@@ -1,7 +1,7 @@
 {
   "name": "@pyroswap/sdk",
   "license": "MIT",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "🛠 An SDK for building applications on top of PyroSwap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -23,7 +23,8 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@pyroswap/dex": "^0.1.0",
+    "@pyroswap/dex": "^1.0.2",
+    "@pyroswap/pyro-swap-core": "^2.2.3",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
